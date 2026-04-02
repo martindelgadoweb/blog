@@ -185,7 +185,7 @@ export const siteConfig: SiteConfig = {
   // [CONFIG:SITE_URL]
   site: "https://astro-modular.netlify.app",
   // [CONFIG:SITE_TITLE]
-  title: "Astro Modular",
+  title: "Martin",
   // [CONFIG:HOMEPAGE_TITLE]
   homepageTitle: "",
   // [CONFIG:SITE_DESCRIPTION]
