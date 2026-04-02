@@ -45,7 +45,8 @@ views:
       and:
         - file.folder == "/"
         - file.name.endsWith("GUIDE")
-    order: []
+    order:
+      - title
     sort:
       - property: file.ctime
         direction: DESC
@@ -68,3 +69,5 @@ views:
     dateIncludeTime: false
     descriptionProperty: note.description
     hideQuickEditIcon: true
+  - type: table
+    name: View
