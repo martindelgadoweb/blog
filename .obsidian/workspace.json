@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/posts/TEST 05.md",
+                "file": "src/content/posts/TEST 06.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TEST 05"
+              "title": "TEST 06"
             }
           }
         ],
@@ -212,9 +212,10 @@
   },
   "active": "a0aad99389412718",
   "lastOpenFiles": [
+    "src/content/posts/TEST 05.md",
+    "src/content/posts/TEST 06.md",
     "src/content/posts/Test 03.md",
     "src/content/posts/Test 02.md",
-    "src/content/posts/TEST 05.md",
     "src/content/posts/TEST 04.md",
     "src/content/posts/formatting-reference.md",
     "_bases/Home.base",
