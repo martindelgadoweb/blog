@@ -185,7 +185,7 @@ export const siteConfig: SiteConfig = {
   // [CONFIG:SITE_URL]
   site: "https://astro-modular.netlify.app",
   // [CONFIG:SITE_TITLE]
-  title: "Martin",
+  title: "Blog",
   // [CONFIG:HOMEPAGE_TITLE]
   homepageTitle: "",
   // [CONFIG:SITE_DESCRIPTION]
@@ -384,7 +384,7 @@ export const siteConfig: SiteConfig = {
   // Post Options
   postOptions: {
     // [CONFIG:POST_OPTIONS_POSTS_PER_PAGE]
-    postsPerPage: 6,
+    postsPerPage: 20,
     // [CONFIG:POST_OPTIONS_READING_TIME]
     readingTime: true,
     // [CONFIG:POST_OPTIONS_WORD_COUNT]
