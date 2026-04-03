@@ -15,22 +15,22 @@
               "type": "bases",
               "state": {
                 "file": "_bases/Home.base",
-                "viewName": "View"
+                "viewName": "Vault CMS Guide 2"
               },
               "pinned": true,
-              "icon": "lucide-table",
+              "icon": "lucide-home",
               "title": "Home"
             }
           },
           {
-            "id": "a0aad99389412718",
+            "id": "46d15b0b01ed02d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "src/content/posts/TEST 06.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -144,7 +144,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -171,12 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "src/content/posts/TEST 06.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of TEST 06"
             }
           },
           {
@@ -210,15 +211,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "a0aad99389412718",
+  "active": "46d15b0b01ed02d4",
   "lastOpenFiles": [
-    "src/content/posts/TEST 05.md",
     "src/content/posts/TEST 06.md",
+    "_bases/Home.base",
+    "src/content/posts/TEST 05.md",
     "src/content/posts/Test 03.md",
+    "_GUIDE.md",
     "src/content/posts/Test 02.md",
     "src/content/posts/TEST 04.md",
     "src/content/posts/formatting-reference.md",
-    "_bases/Home.base",
     "src/content/special/posts.md",
     "src/content/Untitled.md",
     "src/content/posts/TEST 01.md"

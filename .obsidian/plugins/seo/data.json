@@ -29,31 +29,241 @@
   "publishMode": true,
   "defaultSort": "issues-desc",
   "showRibbonIcon": true,
+  "exportFormat": "csv",
   "minContentLength": 300,
   "keywordDensityMin": 1,
   "keywordDensityMax": 2,
   "duplicateThreshold": 80,
   "cachedGlobalResults": [
     {
-      "file": "_vault-cms-guide.md",
-      "displayName": "Vault CMS Guide",
+      "file": "_GUIDE.md",
+      "displayName": "_GUIDE.md",
       "checks": {
         "titleLength": [
           {
             "passed": false,
-            "message": "Title too short: 15 characters",
+            "message": "Title too short: 20 characters",
             "suggestion": "Aim for 30-60 characters",
             "severity": "warning"
           }
         ],
-        "metaDescription": [
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
           {
             "passed": false,
-            "message": "Description too short: 62 characters",
-            "suggestion": "Aim for 120-160 characters",
+            "message": "Content too short: 167 words",
+            "suggestion": "Aim for at least 300 words",
             "severity": "warning"
           }
         ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://docs.vaultcms.org",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 24,
+              "searchText": "https://docs.vaultcms.org",
+              "context": "### Need help?\n\n- **Documentation**: [docs.vaultcms.org](https://docs.vaultcms.org)\n- **Community**: [join the Discord](https://discord.gg/gyrNHAwHK8)\n- **Video Guide**: [set up guide on YouTube](https://www.youtube.com/watch?v=3zeqJ5tqmaQ)"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://discord.gg/gyrNHAwHK8",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 25,
+              "searchText": "https://discord.gg/gyrNHAwHK8",
+              "context": "\n- **Documentation**: [docs.vaultcms.org](https://docs.vaultcms.org)\n- **Community**: [join the Discord](https://discord.gg/gyrNHAwHK8)\n- **Video Guide**: [set up guide on YouTube](https://www.youtube.com/watch?v=3zeqJ5tqmaQ)\n"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://www.youtube.com/watch?v=3zeqJ5tqmaQ",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 26,
+              "searchText": "https://www.youtube.com/watch?v=3zeqJ5tqmaQ",
+              "context": "- **Documentation**: [docs.vaultcms.org](https://docs.vaultcms.org)\n- **Community**: [join the Discord](https://discord.gg/gyrNHAwHK8)\n- **Video Guide**: [set up guide on YouTube](https://www.youtube.com/watch?v=3zeqJ5tqmaQ)\n"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 3.8 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 75,
+      "issuesCount": 0,
+      "warningsCount": 2,
+      "noticesCount": 3
+    },
+    {
+      "file": "src/themes/custom/README.md",
+      "displayName": "custom/README.md",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 21 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 268 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 7.1 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 75,
+      "issuesCount": 0,
+      "warningsCount": 2,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/posts/TEST 06.md",
+      "displayName": "TEST 06",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 7 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
         "titleH1Uniqueness": [
           {
             "passed": false,
@@ -78,7 +288,7 @@
         "contentLength": [
           {
             "passed": true,
-            "message": "Good content length: 2436 words",
+            "message": "Good content length: 468 words",
             "severity": "info"
           }
         ],
@@ -124,24 +334,3477 @@
         "externalBrokenLinks": [
           {
             "passed": true,
-            "message": "Found 9 external link(s), all appear to resolve and are working",
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": false,
+            "message": "Reading level too high: 13.6 (Moderately difficult to read)",
+            "suggestion": "Consider simplifying sentence structure and using shorter words",
+            "severity": "warning"
+          }
+        ]
+      },
+      "overallScore": 75,
+      "issuesCount": 0,
+      "warningsCount": 3,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/posts/TEST 05.md",
+      "displayName": "posts/TEST 05.md",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 7 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 37 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
             "severity": "info"
           }
         ],
         "readingLevel": [
           {
             "passed": true,
-            "message": "Good reading level: 8.9 (Easy to read)",
+            "message": "Good reading level: 7.4 (Easy to read)",
             "severity": "info"
           }
         ]
       },
-      "overallScore": 73.5,
+      "overallScore": 75,
+      "issuesCount": 0,
+      "warningsCount": 2,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/posts/TEST 04.md",
+      "displayName": "posts/TEST 04.md",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 7 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 5 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: -6.6 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 75,
+      "issuesCount": 0,
+      "warningsCount": 2,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/posts/Test 03.md",
+      "displayName": "Primer Post",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 11 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [
+          {
+            "passed": false,
+            "message": "Meta title and H1 are identical",
+            "suggestion": "Modify one to be unique, or specify a suffix/prefix in plugin settings",
+            "severity": "warning"
+          }
+        ],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 11 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 6.9 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 75,
       "issuesCount": 0,
       "warningsCount": 3,
       "noticesCount": 0
+    },
+    {
+      "file": "src/content/posts/Test 02.md",
+      "displayName": "posts/Test 02.md",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 7 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 6 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: -7.3 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 75,
+      "issuesCount": 0,
+      "warningsCount": 2,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/posts/TEST 01.md",
+      "displayName": "posts/TEST 01.md",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 15 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 6 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: -3.4 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 75,
+      "issuesCount": 0,
+      "warningsCount": 2,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/posts/vault-cms-guide.md",
+      "displayName": "Vault CMS Guide",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 2377 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "All media elements have alt text",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://github.com/davidvkimball/obsidian-oxygen",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 47,
+              "searchText": "https://github.com/davidvkimball/obsidian-oxygen",
+              "context": "## Theme\r\n\r\nFor out-of-the-box customization, [Oxygen](https://github.com/davidvkimball/obsidian-oxygen) theme is used, based on the [Minimal theme system](https://minimal.guide/home). It uses a slick color scheme that's highly customizable. \r\n\r\nThe [Oxygen Theme Settings](https://github.com/davidvkimball/obsidian-oxygen-settings) plugin is also installed by default, giving you complete control over your experience. You can even define your own color scheme presets. More on that [below](vault-cms-guide.md#Oxygen%20Theme%20Settings%20and%20Zen%20Mode).\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://minimal.guide/home",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 47,
+              "searchText": "https://minimal.guide/home",
+              "context": "## Theme\r\n\r\nFor out-of-the-box customization, [Oxygen](https://github.com/davidvkimball/obsidian-oxygen) theme is used, based on the [Minimal theme system](https://minimal.guide/home). It uses a slick color scheme that's highly customizable. \r\n\r\nThe [Oxygen Theme Settings](https://github.com/davidvkimball/obsidian-oxygen-settings) plugin is also installed by default, giving you complete control over your experience. You can even define your own color scheme presets. More on that [below](vault-cms-guide.md#Oxygen%20Theme%20Settings%20and%20Zen%20Mode).\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/davidvkimball/obsidian-oxygen-settings",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 49,
+              "searchText": "https://github.com/davidvkimball/obsidian-oxygen-settings",
+              "context": "For out-of-the-box customization, [Oxygen](https://github.com/davidvkimball/obsidian-oxygen) theme is used, based on the [Minimal theme system](https://minimal.guide/home). It uses a slick color scheme that's highly customizable. \r\n\r\nThe [Oxygen Theme Settings](https://github.com/davidvkimball/obsidian-oxygen-settings) plugin is also installed by default, giving you complete control over your experience. You can even define your own color scheme presets. More on that [below](vault-cms-guide.md#Oxygen%20Theme%20Settings%20and%20Zen%20Mode).\r\n\r\n## Important Hotkeys\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/kepano/obsidian-minimal",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 146,
+              "searchText": "https://github.com/kepano/obsidian-minimal",
+              "context": "The Oxygen Theme Settings plugin helps you customize your experience if you use the provided Oxygen Obsidian theme and can help you focus on writing.\r\n\r\nYou'll notice a wide variety of color scheme options, most of which were included in the [Minimal](https://github.com/kepano/obsidian-minimal) theme upon which Oxygen is based.\r\n\r\nShould you desire to hide any of the panels, you can use `CTRL + ALT Z` for the left side panel, `CTRL + ALT + X` for the right side panel, or `CTRL + ALT + S` for the tab bar. Pressing it again will reveal it again. \r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/mgmeyers/obsidian-style-settings",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 156,
+              "searchText": "https://github.com/mgmeyers/obsidian-style-settings",
+              "context": "Zen Mode offers another quick option to focus on your writing. Pressing `CTRL + SHIFT + Z` will enter Zen mode. When activated, all elements removed except for your content. Use the keystroke again to exit. \r\n\r\nIf you like, you can install the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin for even more control over your experience.\r\n\r\n### Git\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://obsidian.md/plugins?id=obsidian-git",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 160,
+              "searchText": "https://obsidian.md/plugins?id=obsidian-git",
+              "context": "### Git\r\n\r\nWith the [Git](https://obsidian.md/plugins?id=obsidian-git) plugin, you can easily publish to your Astro blog without leaving Obsidian. Simply configure with git to enable it. By default, you'll see your current git status and count of files changed (if any) in the status bar on the bottom right.\r\n\r\nTo publish, you can use `CTRL + SHIFT + S` or click the \"commit-and-sync\" button on the status bar. Your changes will be committed and pushed to your remote repository automatically. By default it's pinned to the far right of the status bar. You can also re-arrange status bar items to your liking using UI Tweaker.\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/ViscousPot/GitSync",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 218,
+              "searchText": "https://github.com/ViscousPot/GitSync",
+              "context": "### Disabling the Git Plugin\r\n\r\nIt's recommended to disable the Git plugin on mobile and use something like [Git Sync](https://github.com/ViscousPot/GitSync) for iOS and Android (or [MGit](https://github.com/maks/MGit) just for Android) instead. The Git plugin is notoriously buggy on mobile so it's better to use something else. \r\n\r\nHere's how to disable it: \r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/maks/MGit",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 218,
+              "searchText": "https://github.com/maks/MGit",
+              "context": "### Disabling the Git Plugin\r\n\r\nIt's recommended to disable the Git plugin on mobile and use something like [Git Sync](https://github.com/ViscousPot/GitSync) for iOS and Android (or [MGit](https://github.com/maks/MGit) just for Android) instead. The Git plugin is notoriously buggy on mobile so it's better to use something else. \r\n\r\nHere's how to disable it: \r"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 8.8 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 100,
+      "issuesCount": 0,
+      "warningsCount": 0,
+      "noticesCount": 8
+    },
+    {
+      "file": "src/content/posts/sample-folder-based-post/index.md",
+      "displayName": "Sample Folder-Based Post",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 158 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "All media elements have alt text",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 9.9 (Moderately easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 90,
+      "issuesCount": 0,
+      "warningsCount": 1,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/posts/obsidian-embeds-demo.md",
+      "displayName": "Obsidian Embeds Demo",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 762 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "All media elements have alt text",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://www.youtube.com/watch?v=3zeqJ5tqmaQ",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 47,
+              "searchText": "https://www.youtube.com/watch?v=3zeqJ5tqmaQ",
+              "context": "### YouTube Videos\r\n\r\n![Astro Suite for Obsidian](https://www.youtube.com/watch?v=3zeqJ5tqmaQ)\r\n\r\nYouTube videos are automatically embedded with responsive design and optimized settings.\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://x.com/davidvkimball/status/1933196479801536736",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 53,
+              "searchText": "https://x.com/davidvkimball/status/1933196479801536736",
+              "context": "### Twitter/X Posts\r\n\r\n![Why doesn't everyone use Astro? Writing blog posts in markdown is beautiful.](https://x.com/davidvkimball/status/1933196479801536736)\r\n\r\nTwitter posts are embedded with theme-aware styling that matches your site's light/dark mode.\r"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 9.1 (Moderately easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 100,
+      "issuesCount": 0,
+      "warningsCount": 0,
+      "noticesCount": 2
+    },
+    {
+      "file": "src/content/posts/formatting-reference.md",
+      "displayName": "Formatting Reference",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 20 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [
+          {
+            "passed": false,
+            "message": "Meta title and H1 are identical",
+            "suggestion": "Modify one to be unique, or specify a suffix/prefix in plugin settings",
+            "severity": "warning"
+          }
+        ],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": false,
+            "message": "\"Heading 1\" (H1) appears after H3",
+            "suggestion": "H1 should be the first heading or not used at all",
+            "severity": "warning",
+            "position": {
+              "line": 35,
+              "searchText": "# Heading 1",
+              "context": "### Headings\n\n# Heading 1\n## Heading 2\n### Heading 3"
+            }
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 1198 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "All media elements have alt text",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": false,
+            "message": "Naked link found: https://example.com",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 225,
+              "searchText": "https://example.com",
+              "context": "This is a [reference link][1] and this is another [reference link][markdown].\n\n[1]: https://example.com\n[markdown]: https://daringfireball.net/projects/markdown/\n"
+            }
+          },
+          {
+            "passed": false,
+            "message": "Naked link found: https://daringfireball.net/projects/markdown/",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 226,
+              "searchText": "https://daringfireball.net/projects/markdown/",
+              "context": "\n[1]: https://example.com\n[markdown]: https://daringfireball.net/projects/markdown/\n\n## Code Blocks"
+            }
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://unsplash.com/@antoinerault?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 121,
+              "searchText": "https://unsplash.com/@antoinerault?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
+              "context": "\n![Mountains](/posts/attachments/mountains.png)\n*Photo by [Antoine Rault](https://unsplash.com/@antoinerault?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*\n\n#### Multiple Image Layouts"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 121,
+              "searchText": "https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
+              "context": "\n![Mountains](/posts/attachments/mountains.png)\n*Photo by [Antoine Rault](https://unsplash.com/@antoinerault?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*\n\n#### Multiple Image Layouts"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://obsidian.md",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 159,
+              "searchText": "https://obsidian.md",
+              "context": "### Linked Images\n\n[![Mountains](/posts/attachments/mountains.png)](https://obsidian.md)\n\n```"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://example.com",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 225,
+              "searchText": "https://example.com",
+              "context": "This is a [reference link][1] and this is another [reference link][markdown].\n\n[1]: https://example.com\n[markdown]: https://daringfireball.net/projects/markdown/\n"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://daringfireball.net/projects/markdown/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 226,
+              "searchText": "https://daringfireball.net/projects/markdown/",
+              "context": "\n[1]: https://example.com\n[markdown]: https://daringfireball.net/projects/markdown/\n\n## Code Blocks"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 7.0 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 60,
+      "issuesCount": 0,
+      "warningsCount": 5,
+      "noticesCount": 5
+    },
+    {
+      "file": "src/content/posts/getting-started.md",
+      "displayName": "Getting Started",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 12 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 512 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 8.2 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 85,
+      "issuesCount": 0,
+      "warningsCount": 1,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/special/posts.md",
+      "displayName": "All Posts",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 9 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [
+          {
+            "passed": false,
+            "message": "Meta title and H1 are identical",
+            "suggestion": "Modify one to be unique, or specify a suffix/prefix in plugin settings",
+            "severity": "warning"
+          }
+        ],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "No heading structure issues found",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 10 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": false,
+            "message": "Reading level too high: 13.5 (Moderately difficult to read)",
+            "suggestion": "Consider simplifying sentence structure and using shorter words",
+            "severity": "warning"
+          }
+        ]
+      },
+      "overallScore": 65,
+      "issuesCount": 0,
+      "warningsCount": 4,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/special/projects.md",
+      "displayName": "Projects",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "No heading structure issues found",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 11 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 5.9 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 90,
+      "issuesCount": 0,
+      "warningsCount": 1,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/special/docs.md",
+      "displayName": "Documentation",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "No heading structure issues found",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 35 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 11.5 (Moderately easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 90,
+      "issuesCount": 0,
+      "warningsCount": 1,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/special/home.md",
+      "displayName": "Homepage",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 39 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "Relative path link: posts",
+            "suggestion": "This link may be valid for static site generators but may not work in Obsidian",
+            "severity": "notice",
+            "position": {
+              "line": 8,
+              "searchText": "[posts](/posts/)",
+              "context": "## Thanks for Reading\r\n\r\nIf you're looking for more, check out the [posts](/posts/) page.\r\n"
+            }
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 5.8 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 90,
+      "issuesCount": 0,
+      "warningsCount": 1,
+      "noticesCount": 1
+    },
+    {
+      "file": "src/content/special/404.md",
+      "displayName": "Page Not Found",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "No heading structure issues found",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 23 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: -0.3 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 90,
+      "issuesCount": 0,
+      "warningsCount": 1,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/projects/vault-cms/index.md",
+      "displayName": "Vault CMS",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 667 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": false,
+            "message": "Naked link found: https://github.com/davidvkimball/vault-cms",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 11,
+              "searchText": "https://github.com/davidvkimball/vault-cms",
+              "context": "  - Template\r\nrepositoryUrl:\r\nprojectUrl: https://github.com/davidvkimball/vault-cms\r\nstatus: in-progress\r\nimage: \"[[glacier.png]]\"\r"
+            }
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "Relative path link: Vault Guide",
+            "suggestion": "This link may be valid for static site generators but may not work in Obsidian",
+            "severity": "notice",
+            "position": {
+              "line": 81,
+              "searchText": "[Vault Guide](/posts/vault-cms-guide)",
+              "context": "- **CMS-Like Homepage**: \"Home Base\" view showing all posts in reverse-chronological order with bulk editing\r\n- **Astro Integration**: Seamless workflow from Obsidian to Astro publishing without link conversion\r\n- **Optimized Hotkeys**: Custom keyboard shortcuts designed for Astro workflows (see [Vault Guide](/posts/vault-cms-guide))\r\n- **Git Integration**: Optional instant-publish functionality via Git plugin\r\n- **Visual Parity**: Oxygen theme matches frontend styling for consistent experience\r"
+            }
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://github.com/davidvkimball/astro-modular",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 106,
+              "searchText": "https://github.com/davidvkimball/astro-modular",
+              "context": "## Project Status\r\n\r\nThis project is actively maintained and provides a complete solution for Obsidian-based content management with Astro publishing workflows. The suite is designed to work seamlessly with the above examples and [Astro Modular](https://github.com/davidvkimball/astro-modular) but can be integrated into any Astro project.\r\n\r\n<a href=\"https://github.com/davidvkimball/vault-cms\" class=\"no-styling no-underline\" target=\"_blank\"><button class=\"btn btn-primary w-full\">  \r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/davidvkimball/vault-cms",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 11,
+              "searchText": "https://github.com/davidvkimball/vault-cms",
+              "context": "  - Template\r\nrepositoryUrl:\r\nprojectUrl: https://github.com/davidvkimball/vault-cms\r\nstatus: in-progress\r\nimage: \"[[glacier.png]]\"\r"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": false,
+            "message": "Reading level too high: 17.5 (Difficult to read)",
+            "suggestion": "Consider simplifying sentence structure and using shorter words",
+            "severity": "warning"
+          }
+        ]
+      },
+      "overallScore": 83,
+      "issuesCount": 0,
+      "warningsCount": 2,
+      "noticesCount": 3
+    },
+    {
+      "file": "src/content/projects/astro-composer.md",
+      "displayName": "Astro Composer",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 730 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": false,
+            "message": "Naked link found: https://github.com/davidvkimball/obsidian-astro-composer",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 10,
+              "searchText": "https://github.com/davidvkimball/obsidian-astro-composer",
+              "context": "  - Plugin\r\nrepositoryUrl:\r\nprojectUrl: https://github.com/davidvkimball/obsidian-astro-composer\r\nstatus: in-progress\r\nimage: \"[[attachments/rock.png]]\"\r"
+            }
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": false,
+            "message": "Broken internal link: My Post",
+            "suggestion": "Check if the file \"My Post.md\" exists or update the link",
+            "severity": "error",
+            "position": {
+              "line": 36,
+              "searchText": "[[My Post]]",
+              "context": "\r\n### Link Conversion\r\n- **Internal Link Conversion**: Converts Obsidian wikilinks and markdown internal links (`[[My Post]]` or `[My Post](my-post)`) to Astro-friendly Markdown links (`[My Post](/blog/my-post/)`), supporting both file-based and folder-based post structures.\r\n\r\n### Multi-Content Type Support\r"
+            }
+          },
+          {
+            "passed": false,
+            "message": "Broken internal link: My Post",
+            "suggestion": "Check if the file \"my-post.md\" exists or update the link",
+            "severity": "error",
+            "position": {
+              "line": 36,
+              "searchText": "[My Post](my-post)",
+              "context": "\r\n### Link Conversion\r\n- **Internal Link Conversion**: Converts Obsidian wikilinks and markdown internal links (`[[My Post]]` or `[My Post](my-post)`) to Astro-friendly Markdown links (`[My Post](/blog/my-post/)`), supporting both file-based and folder-based post structures.\r\n\r\n### Multi-Content Type Support\r"
+            }
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "Relative path link: My Post",
+            "suggestion": "This link may be valid for static site generators but may not work in Obsidian",
+            "severity": "notice",
+            "position": {
+              "line": 36,
+              "searchText": "[My Post](/blog/my-post/)",
+              "context": "\r\n### Link Conversion\r\n- **Internal Link Conversion**: Converts Obsidian wikilinks and markdown internal links (`[[My Post]]` or `[My Post](my-post)`) to Astro-friendly Markdown links (`[My Post](/blog/my-post/)`), supporting both file-based and folder-based post structures.\r\n\r\n### Multi-Content Type Support\r"
+            }
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://github.com/davidvkimball/obsidian-astro-composer",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 10,
+              "searchText": "https://github.com/davidvkimball/obsidian-astro-composer",
+              "context": "  - Plugin\r\nrepositoryUrl:\r\nprojectUrl: https://github.com/davidvkimball/obsidian-astro-composer\r\nstatus: in-progress\r\nimage: \"[[attachments/rock.png]]\"\r"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": false,
+            "message": "Reading level too high: 13.2 (Moderately difficult to read)",
+            "suggestion": "Consider simplifying sentence structure and using shorter words",
+            "severity": "warning"
+          }
+        ]
+      },
+      "overallScore": 75,
+      "issuesCount": 2,
+      "warningsCount": 2,
+      "noticesCount": 2
+    },
+    {
+      "file": "src/content/docs/sourcetree-and-git-setup/index.md",
+      "displayName": "SourceTree and Git Setup",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 13 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 978 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://git-scm.com/download/win",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 29,
+              "searchText": "https://git-scm.com/download/win",
+              "context": "\r\n### Windows\r\n1. Download Git from [git-scm.com](https://git-scm.com/download/win)\r\n2. Run the installer with default settings\r\n3. Verify installation: Open Command Prompt and run `git --version`\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://git-scm.com/download/mac",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 35,
+              "searchText": "https://git-scm.com/download/mac",
+              "context": "### macOS\r\n1. Install Xcode Command Line Tools: `xcode-select --install`\r\n2. Or download from [git-scm.com](https://git-scm.com/download/mac)\r\n3. Verify installation: Open Terminal and run `git --version`\r\n\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://www.sourcetreeapp.com/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 69,
+              "searchText": "https://www.sourcetreeapp.com/",
+              "context": "\r\n### Download and Install\r\n1. Visit [sourcetreeapp.com](https://www.sourcetreeapp.com/)\r\n2. Download the free version\r\n3. Install with default settings\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://netlify.com",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 120,
+              "searchText": "https://netlify.com",
+              "context": "\r\n### For Netlify\r\n1. Go to [netlify.com](https://netlify.com)\r\n2. Connect your GitHub account\r\n3. Select your blog repository\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://vercel.com",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 129,
+              "searchText": "https://vercel.com",
+              "context": "\r\n### For Vercel\r\n1. Go to [vercel.com](https://vercel.com)\r\n2. Import your GitHub repository\r\n3. Framework preset: Astro\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://confluence.atlassian.com/sourcetreekb",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 228,
+              "searchText": "https://confluence.atlassian.com/sourcetreekb",
+              "context": "## Getting Help\r\n\r\n- **SourceTree Documentation**: [confluence.atlassian.com](https://confluence.atlassian.com/sourcetreekb)\r\n- **Git Documentation**: [git-scm.com/doc](https://git-scm.com/doc)\r\n- **GitHub Help**: [docs.github.com](https://docs.github.com)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://git-scm.com/doc",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 229,
+              "searchText": "https://git-scm.com/doc",
+              "context": "\r\n- **SourceTree Documentation**: [confluence.atlassian.com](https://confluence.atlassian.com/sourcetreekb)\r\n- **Git Documentation**: [git-scm.com/doc](https://git-scm.com/doc)\r\n- **GitHub Help**: [docs.github.com](https://docs.github.com)\r\n\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://docs.github.com",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 230,
+              "searchText": "https://docs.github.com",
+              "context": "- **SourceTree Documentation**: [confluence.atlassian.com](https://confluence.atlassian.com/sourcetreekb)\r\n- **Git Documentation**: [git-scm.com/doc](https://git-scm.com/doc)\r\n- **GitHub Help**: [docs.github.com](https://docs.github.com)\r\n\r\nRemember: Git and SourceTree are powerful tools that will make managing your blog much easier. Take time to learn the basics, and don't hesitate to experiment in a test repository first!\r"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 5.7 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 85,
+      "issuesCount": 0,
+      "warningsCount": 1,
+      "noticesCount": 8
+    },
+    {
+      "file": "src/content/docs/installing-obsidian.md",
+      "displayName": "Installing Obsidian",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 196 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://obsidian.md",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 19,
+              "searchText": "https://obsidian.md",
+              "context": "## Download Obsidian\r\n\r\n1. Go to [obsidian.md](https://obsidian.md)\r\n2. Click \"Download\"\r\n3. Choose your operating system\r"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 5.2 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 90,
+      "issuesCount": 0,
+      "warningsCount": 1,
+      "noticesCount": 1
+    },
+    {
+      "file": "src/content/docs/configuration.md",
+      "displayName": "Configuration",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 39 characters",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 834 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 11.0 (Moderately easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 100,
+      "issuesCount": 0,
+      "warningsCount": 0,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/docs/api.md",
+      "displayName": "API",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 11 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 249 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": false,
+            "message": "Reading level too high: 21.5 (Very difficult to read)",
+            "suggestion": "Consider simplifying sentence structure and using shorter words",
+            "severity": "warning"
+          }
+        ]
+      },
+      "overallScore": 65,
+      "issuesCount": 0,
+      "warningsCount": 3,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/pages/thank-you.md",
+      "displayName": "Thank You",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "No heading structure issues found",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 26 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 3.7 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 90,
+      "issuesCount": 0,
+      "warningsCount": 1,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/pages/privacy-policy.md",
+      "displayName": "Privacy Policy",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 2648 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 63,
+              "searchText": "https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_",
+              "context": "\r\n- **Cookies or Browser Cookies.** A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.\r\n- **Flash Cookies.** Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read \"Where can I change the settings for disabling, or deleting local shared objects?\" available [here](https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_).\r\n- **Web Beacons.** Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).\r\n\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://www.privacypolicies.com/blog/cookies/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 66,
+              "searchText": "https://www.privacypolicies.com/blog/cookies/",
+              "context": "- **Web Beacons.** Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).\r\n\r\nCookies can be \"Persistent\" or \"Session\" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. Learn more about cookies: [What Are Cookies?](https://www.privacypolicies.com/blog/cookies/).\r\n\r\nWe use both Session and Persistent Cookies for the purposes set out below:\r"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": false,
+            "message": "Reading level too high: 14.9 (Moderately difficult to read)",
+            "suggestion": "Consider simplifying sentence structure and using shorter words",
+            "severity": "warning"
+          }
+        ]
+      },
+      "overallScore": 90,
+      "issuesCount": 0,
+      "warningsCount": 1,
+      "noticesCount": 2
+    },
+    {
+      "file": "src/content/pages/contact.md",
+      "displayName": "Contact",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "No heading structure issues found",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 89 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 4.2 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 90,
+      "issuesCount": 0,
+      "warningsCount": 1,
+      "noticesCount": 0
+    },
+    {
+      "file": "src/content/pages/about.md",
+      "displayName": "About",
+      "checks": {
+        "titleLength": [],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 257 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "All media elements have alt text",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": false,
+            "message": "Broken internal link: Astro Suite Vault (Modular) Guide",
+            "suggestion": "Check if the file \"posts/astro-suite-vault-modular-guide.md\" exists or update the link",
+            "severity": "error",
+            "position": {
+              "line": 41,
+              "searchText": "[Astro Suite Vault (Modular) Guide](posts/astro-suite-vault-modular-guide.md)",
+              "context": "## Posts to Check Out\r\n- [[getting-started|Getting Started]]\r\n- [Astro Suite Vault (Modular) Guide](posts/astro-suite-vault-modular-guide.md) \r\n\r\n---\r"
+            }
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://davidvkimball.com",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 11,
+              "searchText": "https://davidvkimball.com",
+              "context": "  - about-us\r\n---\r\nWelcome to **Astro Modular**, an Astro blog theme template designed for Obsidian users, created by [David V. Kimball](https://davidvkimball.com). This theme turns Obsidian into a powerful CMS for instant blog publishing.\r\n\r\n## Philosophy\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://unsplash.com/@hg_photo?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 45,
+              "searchText": "https://unsplash.com/@hg_photo?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
+              "context": "---\r\n![Water droplet](attachments/water.png)\r\n*Photo by [Herbert Goetsch](https://unsplash.com/@hg_photo?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 45,
+              "searchText": "https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
+              "context": "---\r\n![Water droplet](attachments/water.png)\r\n*Photo by [Herbert Goetsch](https://unsplash.com/@hg_photo?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 11.5 (Moderately easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 83,
+      "issuesCount": 1,
+      "warningsCount": 1,
+      "noticesCount": 3
+    },
+    {
+      "file": "README.md",
+      "displayName": "README.md",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 13 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 668 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "All media elements have alt text",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": false,
+            "message": "Naked link found: https://github.com/davidvkimball/astro-modular",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 22,
+              "searchText": "https://github.com/davidvkimball/astro-modular",
+              "context": "### Status\r\n[![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/astro-modular/deploys)\r\n[![GitHub last commit](https://img.shields.io/github/last-commit/davidvkimball/astro-modular/master)](https://github.com/davidvkimball/astro-modular)\r\n[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/davidvkimball/astro-modular)](https://github.com/davidvkimball/astro-modular)\r\n\r"
+            }
+          },
+          {
+            "passed": false,
+            "message": "Naked link found: https://github.com/davidvkimball/astro-modular",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 22,
+              "searchText": "https://github.com/davidvkimball/astro-modular",
+              "context": "### Status\r\n[![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/astro-modular/deploys)\r\n[![GitHub last commit](https://img.shields.io/github/last-commit/davidvkimball/astro-modular/master)](https://github.com/davidvkimball/astro-modular)\r\n[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/davidvkimball/astro-modular)](https://github.com/davidvkimball/astro-modular)\r\n\r"
+            }
+          },
+          {
+            "passed": false,
+            "message": "Naked link found: https://github.com/davidvkimball/astro-modular",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 22,
+              "searchText": "https://github.com/davidvkimball/astro-modular",
+              "context": "### Status\r\n[![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/astro-modular/deploys)\r\n[![GitHub last commit](https://img.shields.io/github/last-commit/davidvkimball/astro-modular/master)](https://github.com/davidvkimball/astro-modular)\r\n[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/davidvkimball/astro-modular)](https://github.com/davidvkimball/astro-modular)\r\n\r"
+            }
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://astro.build",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 3,
+              "searchText": "https://astro.build",
+              "context": "# Astro Modular\r\n\r\nA flexible [Astro](https://astro.build) blog theme designed for [Obsidian](https://obsidian.md) users. \r\n\r\n[![Alt](https://github.com/user-attachments/assets/612b2171-d141-412b-a891-5b1caa1447b8 \"Astro Modular theme shown off in 3 screenshots, with the left screenshot showing the homepage, the top right showing the bottom of a post, and the bottom right showing a minimal homepage\")](https://astro.build/themes/details/astro-modular/)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://obsidian.md",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 3,
+              "searchText": "https://obsidian.md",
+              "context": "# Astro Modular\r\n\r\nA flexible [Astro](https://astro.build) blog theme designed for [Obsidian](https://obsidian.md) users. \r\n\r\n[![Alt](https://github.com/user-attachments/assets/612b2171-d141-412b-a891-5b1caa1447b8 \"Astro Modular theme shown off in 3 screenshots, with the left screenshot showing the homepage, the top right showing the bottom of a post, and the bottom right showing a minimal homepage\")](https://astro.build/themes/details/astro-modular/)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://astro.build/themes/details/astro-modular/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 5,
+              "searchText": "https://astro.build/themes/details/astro-modular/",
+              "context": "A flexible [Astro](https://astro.build) blog theme designed for [Obsidian](https://obsidian.md) users. \r\n\r\n[![Alt](https://github.com/user-attachments/assets/612b2171-d141-412b-a891-5b1caa1447b8 \"Astro Modular theme shown off in 3 screenshots, with the left screenshot showing the homepage, the top right showing the bottom of a post, and the bottom right showing a minimal homepage\")](https://astro.build/themes/details/astro-modular/)\r\n\r\n## Made with Vault CMS\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/davidvkimball/vault-cms",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 9,
+              "searchText": "https://github.com/davidvkimball/vault-cms",
+              "context": "## Made with Vault CMS\r\n\r\nUse Obsidian as a CMS with [Vault CMS](https://github.com/davidvkimball/vault-cms).\r\n\r\n![Alt](https://github.com/user-attachments/assets/3db459e6-6b9a-4c37-b86d-0f661e88e204 \"Astro Modular Obsidian vault\")\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://app.netlify.com/sites/astro-modular/deploys",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 21,
+              "searchText": "https://app.netlify.com/sites/astro-modular/deploys",
+              "context": "\r\n### Status\r\n[![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/astro-modular/deploys)\r\n[![GitHub last commit](https://img.shields.io/github/last-commit/davidvkimball/astro-modular/master)](https://github.com/davidvkimball/astro-modular)\r\n[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/davidvkimball/astro-modular)](https://github.com/davidvkimball/astro-modular)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/davidvkimball/astro-modular",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 22,
+              "searchText": "https://github.com/davidvkimball/astro-modular",
+              "context": "### Status\r\n[![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/astro-modular/deploys)\r\n[![GitHub last commit](https://img.shields.io/github/last-commit/davidvkimball/astro-modular/master)](https://github.com/davidvkimball/astro-modular)\r\n[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/davidvkimball/astro-modular)](https://github.com/davidvkimball/astro-modular)\r\n\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://astro.build/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 5,
+              "searchText": "https://astro.build/",
+              "context": "A flexible [Astro](https://astro.build) blog theme designed for [Obsidian](https://obsidian.md) users. \r\n\r\n[![Alt](https://github.com/user-attachments/assets/612b2171-d141-412b-a891-5b1caa1447b8 \"Astro Modular theme shown off in 3 screenshots, with the left screenshot showing the homepage, the top right showing the bottom of a post, and the bottom right showing a minimal homepage\")](https://astro.build/themes/details/astro-modular/)\r\n\r\n## Made with Vault CMS\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://www.typescriptlang.org/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 27,
+              "searchText": "https://www.typescriptlang.org/",
+              "context": "### Tech Stack\r\n[![Astro](https://img.shields.io/badge/Astro-6.0.0--beta.1-FF5D01?logo=astro&logoColor=white)](https://astro.build/)\r\n[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)\r\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)\r\n[![Node.js](https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://tailwindcss.com/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 28,
+              "searchText": "https://tailwindcss.com/",
+              "context": "[![Astro](https://img.shields.io/badge/Astro-6.0.0--beta.1-FF5D01?logo=astro&logoColor=white)](https://astro.build/)\r\n[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)\r\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)\r\n[![Node.js](https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)\r\n[![pnpm](https://img.shields.io/badge/pnpm-10.29.3-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://nodejs.org/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 29,
+              "searchText": "https://nodejs.org/",
+              "context": "[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)\r\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)\r\n[![Node.js](https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)\r\n[![pnpm](https://img.shields.io/badge/pnpm-10.29.3-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)\r\n[![Obsidian](https://img.shields.io/badge/Obsidian-1.12.2-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md/)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://pnpm.io/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 30,
+              "searchText": "https://pnpm.io/",
+              "context": "[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)\r\n[![Node.js](https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)\r\n[![pnpm](https://img.shields.io/badge/pnpm-10.29.3-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)\r\n[![Obsidian](https://img.shields.io/badge/Obsidian-1.12.2-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md/)\r\n\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://obsidian.md/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 31,
+              "searchText": "https://obsidian.md/",
+              "context": "[![Node.js](https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)\r\n[![pnpm](https://img.shields.io/badge/pnpm-10.29.3-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)\r\n[![Obsidian](https://img.shields.io/badge/Obsidian-1.12.2-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md/)\r\n\r\n## Why Astro Modular?\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://app.netlify.com/start/deploy?repository=https://github.com/davidvkimball/astro-modular",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 67,
+              "searchText": "https://app.netlify.com/start/deploy?repository=https://github.com/davidvkimball/astro-modular",
+              "context": "## Quick Start\r\n\r\n[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/davidvkimball/astro-modular)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://vercel.com/new/clone?repository-url=https://github.com/davidvkimball/astro-modular",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 68,
+              "searchText": "https://vercel.com/new/clone?repository-url=https://github.com/davidvkimball/astro-modular",
+              "context": "\r\n[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/davidvkimball/astro-modular)\r\n\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://deploy.workers.cloudflare.com/?url=https://github.com/davidvkimball/astro-modular",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 69,
+              "searchText": "https://deploy.workers.cloudflare.com/?url=https://github.com/davidvkimball/astro-modular",
+              "context": "[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/davidvkimball/astro-modular)\r\n\r\n### Get the Code\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://www.npmjs.com/package/create-astro-modular",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 82,
+              "searchText": "https://www.npmjs.com/package/create-astro-modular",
+              "context": "```\r\n\r\n[![npm version](https://img.shields.io/npm/v/create-astro-modular)](https://www.npmjs.com/package/create-astro-modular)\r\n\r\nThis downloads the latest template, removes dev-only files, and installs dependencies automatically. Also works with `npm create astro-modular my-blog`.\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://www.star-history.com/#davidvkimball/astro-modular&type=date&legend=top-left",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 160,
+              "searchText": "https://www.star-history.com/#davidvkimball/astro-modular&type=date&legend=top-left",
+              "context": "## Star History\r\n\r\n[![Star History Chart](https://api.star-history.com/svg?repos=davidvkimball/astro-modular&type=date&legend=top-left)](https://www.star-history.com/#davidvkimball/astro-modular&type=date&legend=top-left)\r\n\r\n## Acknowledgments \r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/aitorllj93/astro-theme-spaceship",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 164,
+              "searchText": "https://github.com/aitorllj93/astro-theme-spaceship",
+              "context": "## Acknowledgments \r\n\r\n[Spaceship Astro theme](https://github.com/aitorllj93/astro-theme-spaceship) for the graph view functionality upon which this theme's is based.\r\n\r\n[ogImage.click](https://ogimage.click/) to generate the open graph image used for this theme.\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://ogimage.click/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 166,
+              "searchText": "https://ogimage.click/",
+              "context": "[Spaceship Astro theme](https://github.com/aitorllj93/astro-theme-spaceship) for the graph view functionality upon which this theme's is based.\r\n\r\n[ogImage.click](https://ogimage.click/) to generate the open graph image used for this theme.\r\n\r\n## Contributing\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/davidvkimball/astro-modular?tab=MIT-1-ov-file",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 176,
+              "searchText": "https://github.com/davidvkimball/astro-modular?tab=MIT-1-ov-file",
+              "context": "## License\r\n\r\n[MIT License](https://github.com/davidvkimball/astro-modular?tab=MIT-1-ov-file)\r\n"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/user-attachments/assets/612b2171-d141-412b-a891-5b1caa1447b8",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 5,
+              "searchText": "https://github.com/user-attachments/assets/612b2171-d141-412b-a891-5b1caa1447b8",
+              "context": "A flexible [Astro](https://astro.build) blog theme designed for [Obsidian](https://obsidian.md) users. \r\n\r\n[![Alt](https://github.com/user-attachments/assets/612b2171-d141-412b-a891-5b1caa1447b8 \"Astro Modular theme shown off in 3 screenshots, with the left screenshot showing the homepage, the top right showing the bottom of a post, and the bottom right showing a minimal homepage\")](https://astro.build/themes/details/astro-modular/)\r\n\r\n## Made with Vault CMS\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/user-attachments/assets/3db459e6-6b9a-4c37-b86d-0f661e88e204",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 11,
+              "searchText": "https://github.com/user-attachments/assets/3db459e6-6b9a-4c37-b86d-0f661e88e204",
+              "context": "Use Obsidian as a CMS with [Vault CMS](https://github.com/davidvkimball/vault-cms).\r\n\r\n![Alt](https://github.com/user-attachments/assets/3db459e6-6b9a-4c37-b86d-0f661e88e204 \"Astro Modular Obsidian vault\")\r\n\r\n## Stats\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://repobeats.axiom.co/api/embed/66fe41c94d95b32b92c1a2fd8d6dc83d386bc10a.svg",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 15,
+              "searchText": "https://repobeats.axiom.co/api/embed/66fe41c94d95b32b92c1a2fd8d6dc83d386bc10a.svg",
+              "context": "## Stats\r\n\r\n![Alt](https://repobeats.axiom.co/api/embed/66fe41c94d95b32b92c1a2fd8d6dc83d386bc10a.svg \"Repobeats analytics image\")\r\n\r\n![Alt](https://github.com/user-attachments/assets/e09c8ee1-6f91-46d6-84a5-e2d8a35c1e14 \"Pagespeed scores\")\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/user-attachments/assets/e09c8ee1-6f91-46d6-84a5-e2d8a35c1e14",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 17,
+              "searchText": "https://github.com/user-attachments/assets/e09c8ee1-6f91-46d6-84a5-e2d8a35c1e14",
+              "context": "![Alt](https://repobeats.axiom.co/api/embed/66fe41c94d95b32b92c1a2fd8d6dc83d386bc10a.svg \"Repobeats analytics image\")\r\n\r\n![Alt](https://github.com/user-attachments/assets/e09c8ee1-6f91-46d6-84a5-e2d8a35c1e14 \"Pagespeed scores\")\r\n\r\n\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 21,
+              "searchText": "https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status",
+              "context": "\r\n### Status\r\n[![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/astro-modular/deploys)\r\n[![GitHub last commit](https://img.shields.io/github/last-commit/davidvkimball/astro-modular/master)](https://github.com/davidvkimball/astro-modular)\r\n[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/davidvkimball/astro-modular)](https://github.com/davidvkimball/astro-modular)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://img.shields.io/github/last-commit/davidvkimball/astro-modular/master",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 22,
+              "searchText": "https://img.shields.io/github/last-commit/davidvkimball/astro-modular/master",
+              "context": "### Status\r\n[![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/astro-modular/deploys)\r\n[![GitHub last commit](https://img.shields.io/github/last-commit/davidvkimball/astro-modular/master)](https://github.com/davidvkimball/astro-modular)\r\n[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/davidvkimball/astro-modular)](https://github.com/davidvkimball/astro-modular)\r\n\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://img.shields.io/github/commit-activity/m/davidvkimball/astro-modular",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 23,
+              "searchText": "https://img.shields.io/github/commit-activity/m/davidvkimball/astro-modular",
+              "context": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/astro-modular/deploys)\r\n[![GitHub last commit](https://img.shields.io/github/last-commit/davidvkimball/astro-modular/master)](https://github.com/davidvkimball/astro-modular)\r\n[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/davidvkimball/astro-modular)](https://github.com/davidvkimball/astro-modular)\r\n\r\n### Tech Stack\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://img.shields.io/badge/Astro-6.0.0--beta.1-FF5D01?logo=astro&logoColor=white",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 26,
+              "searchText": "https://img.shields.io/badge/Astro-6.0.0--beta.1-FF5D01?logo=astro&logoColor=white",
+              "context": "\r\n### Tech Stack\r\n[![Astro](https://img.shields.io/badge/Astro-6.0.0--beta.1-FF5D01?logo=astro&logoColor=white)](https://astro.build/)\r\n[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)\r\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://img.shields.io/badge/TypeScript-5.9.2-3178C6?logo=typescript&logoColor=white",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 27,
+              "searchText": "https://img.shields.io/badge/TypeScript-5.9.2-3178C6?logo=typescript&logoColor=white",
+              "context": "### Tech Stack\r\n[![Astro](https://img.shields.io/badge/Astro-6.0.0--beta.1-FF5D01?logo=astro&logoColor=white)](https://astro.build/)\r\n[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)\r\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)\r\n[![Node.js](https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 28,
+              "searchText": "https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white",
+              "context": "[![Astro](https://img.shields.io/badge/Astro-6.0.0--beta.1-FF5D01?logo=astro&logoColor=white)](https://astro.build/)\r\n[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)\r\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)\r\n[![Node.js](https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)\r\n[![pnpm](https://img.shields.io/badge/pnpm-10.29.3-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 29,
+              "searchText": "https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white",
+              "context": "[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)\r\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)\r\n[![Node.js](https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)\r\n[![pnpm](https://img.shields.io/badge/pnpm-10.29.3-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)\r\n[![Obsidian](https://img.shields.io/badge/Obsidian-1.12.2-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md/)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://img.shields.io/badge/pnpm-10.29.3-F69220?logo=pnpm&logoColor=white",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 30,
+              "searchText": "https://img.shields.io/badge/pnpm-10.29.3-F69220?logo=pnpm&logoColor=white",
+              "context": "[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)\r\n[![Node.js](https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)\r\n[![pnpm](https://img.shields.io/badge/pnpm-10.29.3-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)\r\n[![Obsidian](https://img.shields.io/badge/Obsidian-1.12.2-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md/)\r\n\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://img.shields.io/badge/Obsidian-1.12.2-7C3AED?logo=obsidian&logoColor=white",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 31,
+              "searchText": "https://img.shields.io/badge/Obsidian-1.12.2-7C3AED?logo=obsidian&logoColor=white",
+              "context": "[![Node.js](https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)\r\n[![pnpm](https://img.shields.io/badge/pnpm-10.29.3-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)\r\n[![Obsidian](https://img.shields.io/badge/Obsidian-1.12.2-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md/)\r\n\r\n## Why Astro Modular?\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://www.netlify.com/img/deploy/button.svg",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 67,
+              "searchText": "https://www.netlify.com/img/deploy/button.svg",
+              "context": "## Quick Start\r\n\r\n[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/davidvkimball/astro-modular)\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://vercel.com/button",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 68,
+              "searchText": "https://vercel.com/button",
+              "context": "\r\n[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/davidvkimball/astro-modular)\r\n\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://deploy.workers.cloudflare.com/button",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 69,
+              "searchText": "https://deploy.workers.cloudflare.com/button",
+              "context": "[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/davidvkimball/astro-modular)\r\n[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/davidvkimball/astro-modular)\r\n\r\n### Get the Code\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://img.shields.io/npm/v/create-astro-modular",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 82,
+              "searchText": "https://img.shields.io/npm/v/create-astro-modular",
+              "context": "```\r\n\r\n[![npm version](https://img.shields.io/npm/v/create-astro-modular)](https://www.npmjs.com/package/create-astro-modular)\r\n\r\nThis downloads the latest template, removes dev-only files, and installs dependencies automatically. Also works with `npm create astro-modular my-blog`.\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://api.star-history.com/svg?repos=davidvkimball/astro-modular&type=date&legend=top-left",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 160,
+              "searchText": "https://api.star-history.com/svg?repos=davidvkimball/astro-modular&type=date&legend=top-left",
+              "context": "## Star History\r\n\r\n[![Star History Chart](https://api.star-history.com/svg?repos=davidvkimball/astro-modular&type=date&legend=top-left)](https://www.star-history.com/#davidvkimball/astro-modular&type=date&legend=top-left)\r\n\r\n## Acknowledgments \r"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": false,
+            "message": "Reading level too high: 14.7 (Moderately difficult to read)",
+            "suggestion": "Consider simplifying sentence structure and using shorter words",
+            "severity": "warning"
+          }
+        ]
+      },
+      "overallScore": 64,
+      "issuesCount": 0,
+      "warningsCount": 5,
+      "noticesCount": 38
+    },
+    {
+      "file": "cli/README.md",
+      "displayName": "cli/README.md",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 20 characters",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 53 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://github.com/davidvkimball/astro-modular",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 3,
+              "searchText": "https://github.com/davidvkimball/astro-modular",
+              "context": "# create-astro-modular\r\n\r\nScaffold an [Astro Modular](https://github.com/davidvkimball/astro-modular) blog in seconds.\r\n\r\n## Usage\r"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 5.5 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 75,
+      "issuesCount": 0,
+      "warningsCount": 2,
+      "noticesCount": 1
+    },
+    {
+      "file": "AGENTS.md",
+      "displayName": "AGENTS.md",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 38 characters",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [],
+        "titleH1Uniqueness": [],
+        "keywordInTitle": [],
+        "keywordInDescription": [],
+        "keywordInHeadings": [],
+        "keywordInSlug": [],
+        "slugFormat": [],
+        "keywordDensity": [],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 12056 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": false,
+            "message": "Naked link found: https://github.com/username',",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 2102,
+              "searchText": "https://github.com/username',",
+              "context": "  ],\r\n  social: [\r\n    { title: 'GitHub', url: 'https://github.com/username', icon: 'github' }\r\n  ],\r\n}\r"
+            }
+          },
+          {
+            "passed": false,
+            "message": "Naked link found: https://github.com/username/repo\"",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 2176,
+              "searchText": "https://github.com/username/repo\"",
+              "context": "date: {{date}}\r\ncategories: [\"Web Development\", \"Open Source\"]\r\nrepositoryUrl: \"https://github.com/username/repo\"\r\ndemoUrl: \"https://your-demo.com\"\r\nstatus: \"completed\"  # Any string value - \"completed\", \"in-progress\", \"On Hold\", etc.\r"
+            }
+          },
+          {
+            "passed": false,
+            "message": "Naked link found: https://your-demo.com\"",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 2177,
+              "searchText": "https://your-demo.com\"",
+              "context": "categories: [\"Web Development\", \"Open Source\"]\r\nrepositoryUrl: \"https://github.com/username/repo\"\r\ndemoUrl: \"https://your-demo.com\"\r\nstatus: \"completed\"  # Any string value - \"completed\", \"in-progress\", \"On Hold\", etc.\r\nimage: \"cover.jpg\"\r"
+            }
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": false,
+            "message": "Broken internal link: Astro Suite Vault Guide",
+            "suggestion": "Check if the file \"src/content/posts/obsidian-vault-guide.md\" exists or update the link",
+            "severity": "error",
+            "position": {
+              "line": 12,
+              "searchText": "[Astro Suite Vault Guide](src/content/posts/obsidian-vault-guide.md)",
+              "context": "\r\n1. **[Getting Started Guide](src/content/posts/getting-started.md)** - Complete setup, configuration, and workflow information\r\n2. **[Astro Suite Vault Guide](src/content/posts/obsidian-vault-guide.md)** - Obsidian vault configuration and usage\r\n\r\n**These blog posts should be treated as the authoritative source of truth.** Use the information in this AGENTS.md file as supplementary technical documentation, but always reference the blog posts for the most current and accurate user-facing information.\r"
+            }
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://deploy-preview-12322--astro-docs-2.netlify.app/en/guides/upgrade-to/v6/#upgrade-astro",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 44,
+              "searchText": "https://deploy-preview-12322--astro-docs-2.netlify.app/en/guides/upgrade-to/v6/#upgrade-astro",
+              "context": "### **The Breaking Change**\r\n\r\nAccording to the [Astro v6 Upgrade Guide](https://deploy-preview-12322--astro-docs-2.netlify.app/en/guides/upgrade-to/v6/#upgrade-astro), the `slug` property on collection entries has been removed in favor of `id`:\r\n\r\n- **Old (WRONG)**: `post.slug` - This is deprecated and will cause \"undefined\" URLs\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://davidvkimball.com",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 161,
+              "searchText": "https://davidvkimball.com",
+              "context": "\r\n### Core Mission\r\nAstro Modular is an Astro blog theme template designed for **Obsidian users**, created by [David V. Kimball](https://davidvkimball.com). This theme turns Obsidian into a powerful CMS for instant blog publishing, bridging the gap between your Obsidian vault and a production-ready blog.\r\n\r\nThe theme is built on four core principles:\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://github.com/davidvkimball/obsidian-astro-suite",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 187,
+              "searchText": "https://github.com/davidvkimball/obsidian-astro-suite",
+              "context": "- **Folder-based organization** - Keep content and assets together in dedicated folders\r\n- **Obsidian bracket syntax** - Support for `[[image.jpg]]` syntax in image references\r\n- **[Astro Suite Obsidian Vault](https://github.com/davidvkimball/obsidian-astro-suite) built-in** - Includes Obsidian vault configuration for streamlined publishing\r\n\r\n#### 2. **Flexible & Customizable**\r"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 1544,
+              "searchText": "https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/",
+              "context": "- **Cloudflare Workers** (recommended): Generates `wrangler.toml` (Workers-compatible configuration) and `public/_redirects`/`public/_headers` (redirects and headers)\r\n\r\n**Note:** Cloudflare recommends using Workers instead of Pages. Workers supports static assets with the same features as Pages, plus additional capabilities. The script generates Workers-compatible `wrangler.toml` configuration using `assets.directory` instead of the old `pages_build_output_dir` format. See the [Cloudflare migration guide](https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/) for details.\r\n\r\n#### Build Process\r"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": false,
+            "message": "Reading level too high: 15.8 (Difficult to read)",
+            "suggestion": "Consider simplifying sentence structure and using shorter words",
+            "severity": "warning"
+          }
+        ]
+      },
+      "overallScore": 75,
+      "issuesCount": 1,
+      "warningsCount": 4,
+      "noticesCount": 4
     }
   ],
-  "lastScanTimestamp": 1767334975072,
+  "lastScanTimestamp": 1775184088635,
   "showNotices": true
 }

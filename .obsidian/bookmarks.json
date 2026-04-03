@@ -5,6 +5,12 @@
       "ctime": 1755331588238,
       "path": "_formatting-reference.md",
       "title": "Formatting Reference"
+    },
+    {
+      "type": "folder",
+      "ctime": 1775182563345,
+      "path": "src/content/posts",
+      "title": "Post"
     }
   ]
 }
